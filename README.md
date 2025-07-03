@@ -37,7 +37,6 @@ To run this project locally, follow these simple steps:
     ```bash
     git clone [https://github.com/datasosa/nollystream-frontend.git](https://github.com/datasosa/nollystream-frontend.git)
     ```
-    (Replace `YOUR_USERNAME` and `your-repo-name` with your actual GitHub username and repository name.)
 
 2.  **Navigate to the project directory:**
     ```bash
@@ -53,12 +52,12 @@ To run this project locally, follow these simple steps:
 
 ### Desktop View
 
-![NollyStream Desktop Screenshot 1](Nollystream-desktop-view.jpg)
+![NollyStream Desktop Screenshot 1](NollyStream-desktop-view.jpg)
 _A wide view of the hero section and trending movies._
 
 ### Mobile View
 
-![NollyStream Mobile Screenshot 1](https://via.placeholder.com/400x800/000000/FFFFFF?text=Mobile+Hero+Section)
+![NollyStream Mobile Screenshot 1](NollyStream-mobile-view.jpg)
 _How the hero section adapts on mobile devices._
 
 *(**Tip:** Consider adding a GIF here to showcase the carousel scroll or mobile menu toggle!)*
