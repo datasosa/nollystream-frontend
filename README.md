@@ -53,7 +53,7 @@ To run this project locally, follow these simple steps:
 
 ### Desktop View
 
-![NollyStream Desktop Screenshot 1](https://github.com/datasosa/nollystream-desktop-view.jpg)
+![NollyStream Desktop Screenshot 1](Nollystream-desktop-view.jpg)
 _A wide view of the hero section and trending movies._
 
 ### Mobile View
