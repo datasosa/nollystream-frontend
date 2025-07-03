@@ -53,19 +53,13 @@ To run this project locally, follow these simple steps:
 
 ### Desktop View
 
-![NollyStream Desktop Screenshot 1](https://via.placeholder.com/1200x600/000000/FFFFFF?text=Desktop+Hero+Section)
+![NollyStream Desktop Screenshot 1](https://github.com/datasosa/nollystream-desktop-view.jpg)
 _A wide view of the hero section and trending movies._
-
-![NollyStream Desktop Screenshot 2](https://via.placeholder.com/1200x600/000000/FFFFFF?text=Desktop+Categories+and+Footer)
-_An overview of the categories and footer sections._
 
 ### Mobile View
 
 ![NollyStream Mobile Screenshot 1](https://via.placeholder.com/400x800/000000/FFFFFF?text=Mobile+Hero+Section)
 _How the hero section adapts on mobile devices._
-
-![NollyStream Mobile Screenshot 2](https://via.placeholder.com/400x800/000000/FFFFFF?text=Mobile+Categories+and+Menu)
-_The mobile view of categories and the collapsed menu._
 
 *(**Tip:** Consider adding a GIF here to showcase the carousel scroll or mobile menu toggle!)*
 
