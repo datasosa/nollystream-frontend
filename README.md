@@ -19,8 +19,7 @@ Welcome to **NollyStream**, a modern, responsive, and intuitive frontend for a f
 ## 🚀 Live Demo
 
 Experience NollyStream live:
-**[NollyStream Live Demo](YOUR_GITHUB_PAGES_URL_HERE)**
-*(Replace `YOUR_GITHUB_PAGES_URL_HERE` with the actual URL after deploying to GitHub Pages.)*
+**[NollyStream Live Demo](https://datasosa.github.io/nollystream-frontend/)**
 
 ## 💻 Technologies Used
 
@@ -36,13 +35,13 @@ To run this project locally, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/your-repo-name.git](https://github.com/YOUR_USERNAME/your-repo-name.git)
+    git clone [https://github.com/datasosa/nollystream-frontend.git](https://github.com/datasosa/nollystream-frontend.git)
     ```
     (Replace `YOUR_USERNAME` and `your-repo-name` with your actual GitHub username and repository name.)
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd your-repo-name
+    cd nollystream-frontend
     ```
 
 3.  **Open `index.html`:**
