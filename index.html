@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NollyStream - Premium Nollywood Movies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="logo">
+                <img src="images/logo.png" alt="NollyStream Logo">
+            </div>
+            <div class="nav-links" id="main-nav-links" aria-hidden="true">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#movies" class="nav-link">Movies</a>
+                <a href="#tv-shows" class="nav-link">TV Shows</a>
+                <a href="#new-releases" class="nav-link">New Releases</a>
+                <a href="#categories" class="nav-link">Categories</a>
+            </div>
+            <div class="search-box">
+                <label for="search-input" class="sr-only">Search movies</label>
+                <input type="text" id="search-input" placeholder="Search movies...">
+                <button class="search-btn" aria-label="Perform search"><i class="fas fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div class="user-actions">
+                <button class="btn btn-outline">Sign In</button>
+                <button class="btn btn-primary">Register</button>
+                <button class="hamburger-menu" aria-label="Open main menu" aria-controls="main-nav-links" aria-expanded="false">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Nollywood Content at Affordable Prices</h1>
+                <p class="hero-subtitle">Watch the latest Nigerian movies for as low as ₦50. No subscriptions, pay only for what you watch.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg">Browse Movies</button>
+                    <button class="btn btn-outline btn-lg">How It Works</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-featured.jpg" 
+                     alt="Cover image for a featured Nollywood movie, showcasing vibrant colors and characters." 
+                     class="hero-img">
+                <div class="hero-badge">
+                    <span class="badge-text">New Release</span>
+                    <span class="price-tag">₦150</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="movies">
+            <div class="section-header">
+                <h2>Trending Now</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="movie-carousel-wrapper">
+                <div class="movie-carousel" id="trending-carousel">
+                    <div class="movie-card" data-animation-delay="0.1s">
+                        <img src="images/Wedding-party.jpg" alt="Movie poster for 'The Wedding Party'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">The Wedding Party</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.8 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.8</span>
+                                <span class="year">2016</span>
+                                <span class="duration">2h 15m</span>
+                            </div>
+                            <div class="movie-price">₦200</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.2s">
+                        <img src="images/king-of-boys-return.jpg" alt="Movie poster for 'King of Boys: The Return'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">King of Boys: The Return</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.9 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.9</span>
+                                <span class="year">2021</span>
+                                <span class="duration">2h 45m</span>
+                            </div>
+                            <div class="movie-price">₦250</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.3s">
+                        <img src="images/living-in-bondage.jpg" alt="Movie poster for 'Living in Bondage: Breaking Free'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">Living in Bondage: Breaking Free</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.7 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.7</span>
+                                <span class="year">2019</span>
+                                <span class="duration">2h 5m</span>
+                            </div>
+                            <div class="movie-price">₦180</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.4s">
+                        <img src="images/omo-ghetto.jpg" alt="Movie poster for 'Omo Ghetto: The Saga'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">Omo Ghetto: The Saga</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.6 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.6</span>
+                                <span class="year">2020</span>
+                                <span class="duration">2h 10m</span>
+                            </div>
+                            <div class="movie-price">₦170</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.5s">
+                        <img src="images/citation.jpg" alt="Movie poster for 'Citation'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">Citation</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.5 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.5</span>
+                                <span class="year">2020</span>
+                                <span class="duration">2h 30m</span>
+                            </div>
+                            <div class="movie-price">₦160</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-carousel-nav">
+                    <button class="left" aria-label="Scroll left"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+                    <button class="right" aria-label="Scroll right"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="new-releases">
+            <div class="section-header">
+                <h2>New Releases</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="movie-carousel-wrapper">
+                <div class="movie-carousel" id="new-releases-carousel">
+                    <div class="movie-card" data-animation-delay="0.1s">
+                        <img src="images/blood-sisters.jpg" alt="Movie poster for 'Blood Sisters'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">Blood Sisters</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.8 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.8</span>
+                                <span class="year">2022</span>
+                                <span class="duration">1h 50m</span>
+                            </div>
+                            <div class="movie-price">₦220</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.2s">
+                        <img src="images/brotherhood.jpg" alt="Movie poster for 'Brotherhood'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">Brotherhood</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.7 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.7</span>
+                                <span class="year">2022</span>
+                                <span class="duration">2h 15m</span>
+                            </div>
+                            <div class="movie-price">₦210</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.3s">
+                        <img src="images/the-man-for-the-job.jpg" alt="Movie poster for 'The Man for the Job'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">The Man for the Job</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.6 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.6</span>
+                                <span class="year">2022</span>
+                                <span class="duration">1h 45m</span>
+                            </div>
+                            <div class="movie-price">₦190</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.4s">
+                        <img src="images/namaste-wahala.jpg" alt="Movie poster for 'Namaste Wahala'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">Namaste Wahala</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.5 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.5</span>
+                                <span class="year">2020</span>
+                                <span class="duration">1h 55m</span>
+                            </div>
+                            <div class="movie-price">₦180</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-animation-delay="0.5s">
+                        <img src="images/la-femme-anjola.jpg" alt="Movie poster for 'La Femme Anjola'" class="movie-poster">
+                        <div class="movie-info">
+                            <h3 class="movie-title">La Femme Anjola</h3>
+                            <div class="movie-meta">
+                                <span class="rating" aria-label="Rating: 4.4 stars"><i class="fas fa-star" aria-hidden="true"></i> 4.4</span>
+                                <span class="year">2021</span>
+                                <span class="duration">2h 5m</span>
+                            </div>
+                            <div class="movie-price">₦170</div>
+                            <button class="btn btn-sm btn-primary">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-carousel-nav">
+                    <button class="left" aria-label="Scroll left"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+                    <button class="right" aria-label="Scroll right"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="categories">
+            <div class="section-header">
+                <h2>Popular Categories</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="categories-grid">
+                <a href="#" class="category-card" data-animation-delay="0.1s">
+                    <img src="images/category-romance.jpg" alt="Romantic movie category image">
+                    <h3>Romance</h3>
+                </a>
+                <a href="#" class="category-card" data-animation-delay="0.2s">
+                    <img src="images/category-comedy.jpg" alt="Comedy movie category image">
+                    <h3>Comedy</h3>
+                </a>
+                <a href="#" class="category-card" data-animation-delay="0.3s">
+                    <img src="images/category-drama.jpg" alt="Drama movie category image">
+                    <h3>Drama</h3>
+                </a>
+                <a href="#" class="category-card" data-animation-delay="0.4s">
+                    <img src="images/category-action.jpg" alt="Action movie category image">
+                    <h3>Action</h3>
+                </a>
+                <a href="#" class="category-card" data-animation-delay="0.5s">
+                    <img src="images/category-thriller.jpg" alt="Thriller movie category image">
+                    <h3>Thriller</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="NollyStream Logo" width="150" height="50">
+                <p>Premium Nollywood content at your fingertips</p>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="#" aria-label="Visit us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Visit us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Visit us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Visit us on YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NollyStream. All rights reserved.</p>
+            <div class="payment-methods" aria-label="Accepted payment methods">
+                <i class="fab fa-cc-mastercard" title="Mastercard"></i>
+                <i class="fab fa-cc-visa" title="Visa"></i>
+                <i class="fas fa-mobile-alt" title="Mobile Money"></i>
+                <i class="fab fa-paypal" title="PayPal"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
